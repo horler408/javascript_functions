@@ -1,1 +1,1 @@
-# javascript_functions
+This is a collection of useful javascript functions
