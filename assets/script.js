@@ -12,3 +12,16 @@ window.addEventListener("scroll", () => {
     if(window.scrollY >= 50) container.classList.remove("cloud")
     //else container.classList.remove("cloud")
 })
+
+//Table code
+let channel = "I am interested in learning Python Java and Php. Now I wish to share my knowledge";
+let word = channel.split(" ")
+
+let checkWordLength = word.length > 10 ? 'word id greater than 10' : 'wordis less than 10'
+
+let summary = {
+    result: checkWordLength,
+    wordLength = word.length 
+};
+
+console.table(summary);
